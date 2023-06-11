@@ -730,6 +730,10 @@ h1, h2, h3, h4, h5, h6, p{
     fill: var(--bg-btn-color);
 }
 
+.a-href-privacy{
+    color: var(--color-main-logo)
+}
+
 .btn-modal-send{
     margin: auto;
     display: block;
