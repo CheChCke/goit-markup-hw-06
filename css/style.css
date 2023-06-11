@@ -734,9 +734,11 @@ input[type=checkbox]:active{
 }
 
 .btn-modal-send{
+    margin: auto;
     display: block;
     min-width: 169px;
     height: 56px;
+    text-align: center;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
