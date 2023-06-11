@@ -723,14 +723,14 @@ h1, h2, h3, h4, h5, h6, p{
     fill: transparent;
 }
 
-input[type=checkbox]:active{
-    background-color: #404bbf;
-    border: none;
-    fill: #fdf4fd;
-}
-
 .a-href-privacy{
     color: #4d5ae5;
+}
+
+input:checked, .a-privacy{
+    background-color:#404bbf;
+    border: none;
+    fill: #f4f4fd;
 }
 
 .btn-modal-send{
