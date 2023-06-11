@@ -660,6 +660,7 @@ h1, h2, h3, h4, h5, h6, p{
                 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 72px 24px 24px 24px;
 }
 .modal-text{
     font-weight: 500;
@@ -673,7 +674,6 @@ h1, h2, h3, h4, h5, h6, p{
 
 .div-form-modal{
     margin-bottom: 8ex;
-    padding: 72px 24px 24px 24px;
 }
 
 .form-user-name{
