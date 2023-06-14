@@ -705,6 +705,7 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 .label-privacy{
+    display: flex;
     align-items: center;
     font-size: 12px;
     line-height: 1.17;
@@ -712,7 +713,12 @@ h1, h2, h3, h4, h5, h6, p{
     color: var(--color-icons-customers);
 }
 
+.text-modal-span{
+    margin: 0 4px 0 8px;
+}
+
 .a-privacy{
+    order: -1;
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -722,6 +728,7 @@ h1, h2, h3, h4, h5, h6, p{
     align-items: center;
     justify-content: center;
     fill: transparent;
+
 }
 
 .input-checkbox:checked + .label-privacy span{
@@ -777,10 +784,6 @@ h1, h2, h3, h4, h5, h6, p{
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.inp-user-inf:focus{
-    border-color: #4D5AE5;
-}
-
 .svg-modal-name{
     position: absolute;
     left: 16px;
@@ -789,8 +792,16 @@ h1, h2, h3, h4, h5, h6, p{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.inp-user-inf:focus,.svg-modal-name{
+.inp-user-inf:focus{
+    border-color: #4D5AE5;
+}
+
+.inp-user-inf:focus + .svg-modal-name{
     fill: #4D5AE5;
+}
+
+
+.svg-modal-name:focus{
 }
 
 .btn-modal-close{
