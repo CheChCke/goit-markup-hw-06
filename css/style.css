@@ -731,7 +731,7 @@ h1, h2, h3, h4, h5, h6, p{
 
 }
 
-.input-checkbox:checked + .label-privacy span{
+.input-checkbox:checked + .label-privacy .a-privacy{
     background-color: var(--color-menu-accent-hover);
     border: none;
     fill: var(--bg-btn-color);
