@@ -800,10 +800,6 @@ h1, h2, h3, h4, h5, h6, p{
     fill: #4D5AE5;
 }
 
-
-.svg-modal-name:focus{
-}
-
 .btn-modal-close{
     position: absolute;
     top: 24px;
