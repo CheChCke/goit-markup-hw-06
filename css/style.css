@@ -722,7 +722,7 @@ h1, h2, h3, h4, h5, h6, p{
     align-items: center;
     justify-content: center;
     fill: transparent;
-
+    margin-right: 8px;
 }
 
 .input-checkbox:checked + .label-privacy .a-privacy{
